@@ -1,0 +1,19 @@
+<div class="auth-page">
+    <div class="welcome-con">
+        <h1 class="welcome-con-txt" id="welcome">Welcome</h1>
+        <i class="fa fa-smile-o fa-4x" aria-hidden="true" id="smile"></i>
+    </div>
+    <div class="container">
+        <!--<header class="row spacing">
+            <nav class="col-md-8 col-md-offset-2">
+                <ul class="nav nav-tabs">
+                    <li routerLinkActive="active"><a [routerLink]="['signup']">Signup</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['signin']">Signin</a></li>
+                </ul>
+            </nav>
+        </header>-->
+        <div class="row spacing">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

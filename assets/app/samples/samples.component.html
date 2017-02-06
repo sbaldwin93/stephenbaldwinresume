@@ -1,0 +1,18 @@
+<div>
+    <div class="samples-con" *ngIf="isLoggedIn()">
+        <header class="row spacing">
+            <nav class="col-xs-12">
+                <ul class="nav nav-tabs">
+                    <li routerLinkActive="active"><a [routerLink]="['1']">1</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['2']">2</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['3']">3</a></li>
+                    <li routerLinkActive="active"><a [routerLink]="['4']">4</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="line-strike"></div>
+    <div class="row spacing">
+        <router-outlet></router-outlet>
+    </div>
+</div>
